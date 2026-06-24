@@ -1,0 +1,76 @@
+# CR — 24/09/2025
+ 
+## Prise d'informations
+ 
+### Outils retenus pour le travail collaboratif
+ 
+**Stack choisie :** Plane / Outlook / Discord *(communication non formelle et réunions si besoin)*
+ 
+| Contexte | Décision |
+|---|---|
+| Microsoft | Accès insuffisant côté chefferie de projet |
+| Confluence / Jira | Payants → choix de l'open source |
+| Outil de chefferie de projet | Sensibiliser les B1/B2/B3 à la gestion de projet |
+| Accès actuel | Via VPN (application hébergée) → à creuser, pas idéal — accès direct souhaité pour les B1/B2/B3 |
+ 
+---
+ 
+## Communication
+ 
+### Avec les M2 G1
+ 
+- Envoi d'un mail de présentation
+- Explication du mode de fonctionnement de l'équipe
+### Communication d'astreinte
+ 
+- Serveur Discord commun avec des channels par groupe
+- Validation systématique de la communication avant envoi
+- Idéalement : une adresse mail unique pour les réponses, avec 1 backup
+---
+ 
+## Fonctionnement
+ 
+- Les B1/B2/B3 rédigent un **CR à chaque séance**
+- Création d'un **document de CR standardisé** (template imposé)
+---
+ 
+## Organisation
+ 
+- Récupérer le planning des classes pour les cours Aranda LABO *(Kilyan ?)*
+- Création de groupes Office 365 pour faciliter les échanges mail ✅
+- Définir l'utilisation de chaque outil (docs, CR, templates imposés)
+- Présentation de l'équipe M2 : expérience et affinités
+- Demander aux B1/B2/B3 d'utiliser **Répondre à tous** → compatible avec les listes de distribution ✅
+---
+ 
+## Déroulement type d'une séance
+ 
+### Niveau M2
+ 
+1. Point sur l'avancée depuis la dernière séance (M2 / B3 / B2 / B1)
+2. Point sur l'astreinte
+3. Point sur les CR / Mails / Tâches / Retours
+4. Validation des documents fournis par les B3
+5. Planification des actions B3
+### Niveau B3
+ 
+1. Point sur l'avancée depuis la dernière séance
+2. Feedbacks
+3. Validation des documents fournis par les B1/B2 et envoi aux M2
+4. Planification
+5. CR pour les M2
+### Niveau B1/B2
+ 
+1. Point sur l'avancée depuis la dernière séance
+2. Envoi des procédures aux B3
+3. CR pour les B3 / M2
+---
+ 
+## Actions — Pour la prochaine séance
+ 
+| Responsable | Action |
+|---|---|
+| **Lucas P.** | Installation et configuration de Plane |
+| **Anaïs** | Configuration du serveur Discord |
+| **Cyril** | Analyse de l'existant |
+| **Lucas M.** | Analyse de l'existant |
