@@ -1,0 +1,144 @@
+# CR — 26/11/2025
+
+## Point du jour
+
+### Les équipes et la gestion du temps
+
+**Team B3 — ASRBD (G2)**
+- Moussa B
+- Kilian B
+- Loïs G
+
+**Team B1/B2 — TSSR**
+- Tim P (G1)
+- Kévin C (G2)
+
+---
+
+## Actions effectuées
+
+- Mise en place de tags sur Plane pour identifier les compétences en fonction des tâches assignées
+- Revue des tâches déjà effectuées par les TSTN / ASRBD à ce jour
+- Création du dossier partagé OneDrive pour les documents
+
+---
+
+## Dates à retenir
+
+| Date | Événement |
+|---|---|
+| 03/02/26 PM | Prochain cours M2RS → deux mois de tâches à prévoir |
+| Début février *(À CONFIRMER)* | Départ stage B2 — actions N1 reprises par les B1 |
+| 11/12 AM & 03/02 AM | ASRBD |
+| 09/12 PM & 16/12 AM | TSTN B2 |
+| 03/02 AM | TSTN B1 |
+
+---
+
+## État des équipements réservés
+
+- Demande effectuée le 30/09/25 — Réservation à notre groupe (groupe 3) de **IPI_SERVEUR03** et **IPICOMMUT03**
+- Le 28/10, Kévin nous signale que nos équipements sont utilisés par un autre groupe
+- Mail envoyé à FX pour informations complémentaires
+- FX nous confirme la réservation de nos équipements
+- ⚠️ **À ce jour, nous n'avons pas les bons équipements sur le tableau d'inventaire**
+
+---
+
+## Outils
+
+- **Dossier partagé OneDrive :** https://1drv.ms/f/c/1dcbb633e4c01d48/lgCgrUAyG7yuR5NbsdEGQvSGAVUdtSqArlbkvHNtKOuOmxE?e=5ne2ry
+
+---
+
+## Point sur les actions ASRBD
+
+### Concernant le schéma
+
+- Pourquoi GitHub ?
+- Il est nécessaire d'ajouter **Ansible** pour l'automatisation de VM, fonctionnant avec **Terraform**
+- Le routeur FW peut être retiré — la redondance sera mise en place dans le cadre de l'évolutivité du projet. Bonne démarche.
+- Expliquer ce qu'on entend par "Lien logique / Lien physique"
+- Corriger les IP (erreur de frappe)
+
+### Concernant le CR et les documentations
+
+- Adapter les en-têtes des documents pour qu'elles soient conformes au titre
+- Réaliser les procédures **en anglais et en français** pour harmoniser le projet
+
+### Tâches
+
+**Décembre** *(date limite de rendu : 15/12 pour étude M2RS)*
+
+- Schéma version finale
+- Procédures d'installation, de configurations et POC des technos suivantes — `ASRBD_BC04_2` :
+  - Terraform
+  - Ansible
+  - Proxmox + Proxmox Backup *(inclure documentation PRA pour la sauvegarde)*
+- Proposer un plan de déploiement de l'infrastructure pour les B1/B2 *(contrainte : un seul technicien par groupe de B2)* — `ASRBD_BC02_4` ; `ASRBD_BC02_6` ; `ASRBD_BC04_8`
+- Proposer une solution de suivi de demandes techniques des B1/B2 + procédure d'utilisation — `ASRBD_BC02_12` ; `ASRBD_BC02_13` ; `ASRBD_BC02_14` ; `ASRBD_BC04_2` ; `ASRBD_BC04_6`
+
+**Janvier** *(date limite : 26/01 pour étude M2RS)*
+
+- Procédures d'installation, de configurations et POC des technos suivantes :
+  - Bastion Apache Guacamole
+  - Zabbix
+  - GLPI
+  - Serveur ADDS / DNS
+- Préparer une présentation de l'infra et du projet pour les B1 *(réunion commune de projet en février)* — `ASRBD_BC04_7` ; `ASRBD_BC02_10`
+- Préparer une étude RSE de l'infrastructure + indicateurs — `ASRBD_BC02_15` ; `ASRBD_BC02_16`
+
+### Questions cours
+
+- Avez-vous vu la norme ISO 20000 ? Sinon, à quelle date est prévue le cours ? — `ASRBD_BC02_1`
+
+---
+
+## Point sur les actions B2
+
+### Concernant l'infra
+
+**Décembre**
+
+- Réaliser une fiche inventaire de poste et proposer une configuration type à destination d'un utilisateur d'applications bureautique — `TSRS_BC01_2`
+- Proposer des procédures d'installation basées sur les documentations officielles : Windows 11 / Ubuntu / Debian serveur — `TSRS_BC01_7`
+- Proposer un process de réception de matériel, de test et d'intégration à l'inventaire — `TSRS_BC04_1`
+- Proposer un process de suivi d'inventaire — `TSRS_BC04_2`
+- Proposer un process de tests puis de recyclage d'équipements en fin de vie — `TSRS_BC04_4` ; `TSRS_BC04_5`
+- Proposer différents prestataires de recyclage — `TSRS_BC04_6`
+
+**Janvier**
+
+- Tester les procédures fournies par les B3 suivant le plan de déploiement — `TSRS_BC01_1` ; `TSRS_BC02_5` ; `TSRS_BC02_6` ; `TSRS_BC02_8` ; `TSRS_BC03_1`
+- À l'aide du schéma d'infrastructure fourni par les ASRBD, proposer un plan d'équilibrage des charges de VMs à déployer dans le futur — `TSRS_BC02_1`
+- À l'aide du schéma d'infrastructure fourni par les ASRBD, proposer un plan de mises à jour comportant l'identification des équipements à maintenir, les périodes de MAJs et les plateformes officielles de téléchargement — `TSRS_BC03_4` ; `TSRS_BC03_5` ; `TSRS_BC03_6`
+
+---
+
+## Communications mails
+
+### Communication FX
+
+- Demande de confirmation des groupes tels quels, via les réponses obtenues
+- Information : dans le référentiel des compétences ASRBD, BC03_10 et BC03_12 sont les mêmes compétences
+- Confirmation de réservation des équipements — le document inventaire 1.17 du 31/10 ne mentionne toujours pas notre nom de groupe
+- Qui seront nos B1 pour prévoir une réunion commune le 03/02 ? *(nous sommes tous en même temps en labo d'après le planning fourni)*
+
+### Communication B3
+
+- Avez-vous commencé à travailler sur des éléments physiques ? Si oui, lesquels ?
+- Questionnements concernant le dernier schéma fourni
+- Pour le 03/02, nous avons Labo en même temps — souhaitez-vous en profiter pour une réunion commune ?
+- Sur le mois de décembre, nous demandons les livrables plus tôt pour tenir compte des vacances de fin d'année
+- En PJ : les compétences identifiées comme validées pour vous (novembre + prévisionnel décembre/janvier)
+- Merci de confirmer votre accès à Plane / Docmost
+
+### Communication B1/B2
+
+- Avez-vous commencé à travailler sur des éléments physiques ? Si oui, lesquels ?
+- Avez-vous monté un Proxmox ? L'avez-vous configuré ? *(Si non, en PJ les procédures sur lesquelles nous souhaitons vos retours et POCs)*
+- Avez-vous des points que vous souhaitez approfondir concernant la mise en place d'une infrastructure ?
+- Avez-vous des questions techniques ?
+- Pour toute question ou besoin technique, vous avez la liste de distribution qui vous permet de contacter vos administrateurs référents : **Moussa, Kilian et Loïs**
+- En PJ : les compétences identifiées comme validées pour vous (novembre + prévisionnel décembre/janvier)
+- Merci de confirmer votre accès à Planner / Docmost
